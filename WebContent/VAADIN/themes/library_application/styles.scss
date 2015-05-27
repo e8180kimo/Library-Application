@@ -1,9 +1,0 @@
-@import "addons.scss";
-@import "library_application.scss";
-
-/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
-/* The actual styles should be defined in library_application.scss */
-.library_application {
-  @include addons;
-  @include library_application;
-}
